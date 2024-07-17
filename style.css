@@ -137,11 +137,11 @@ button {
 
 @media (max-width: 576px) {
     .coding {
-        display: flex; flex-direction: column; justify-content: center; align-items: center;
+        display: flex; flex-direction: column; justify-content: center; align-items: center; column-gap: 0px;
     }
 
     .video {
-        display: flex; flex-direction: column; justify-content: center; align-items: center;
+        display: flex; flex-direction: column; justify-content: center; align-items: center; column-gap: 0px;
     }
 
     p {
