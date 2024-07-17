@@ -95,6 +95,10 @@ button {
     padding: 10px 20px;
 }
 
+button:hover {
+    background-color: #008086;
+}
+
 .container {
     color: #EEEEEE;
 }
