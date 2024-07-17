@@ -46,22 +46,13 @@ p {
     font-size: 20px;
 }
 
-#skills {
-    display: grid;
-    grid-template-columns: 500px 500px;
-    grid-template-rows: 50px 300px 300px;
-    row-gap: 50px;
-    margin-top: 96px;
-    margin-bottom: 96px;
-    color: #EEEEEE;
-}
-
 .my {
     display: flex;
     grid-column: span 2;
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #EEEEEE;
 }
 
 .para {
@@ -70,6 +61,9 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #EEEEEE;
+    height: 300px;
+    width: 400px;
 }
 
 #contact {
@@ -78,6 +72,7 @@ p {
     align-items: center;
     text-align: center;
     margin-top: 96px;
+    margin-bottom: 96px;
 }
 
 .get {
@@ -94,10 +89,76 @@ button {
     padding: 10px 20px;
 }
 
-button:hover {
-    background-color: #008086;
-}
-
 .container {
     color: #EEEEEE;
+}
+
+.response {
+    display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: #171717;
+}
+
+.my {
+    display: flex; flex-direction: column; justify-content: center; align-items: center; margin-bottom: 60px;
+}
+
+.coding {
+    display: flex; flex-direction: row; justify-content: center; align-items: center; column-gap: 50px; margin-bottom: 50px;
+}
+
+.video {
+    display: flex; flex-direction: row; justify-content: center; align-items: center; column-gap: 50px;
+}
+
+.image {
+    height: 300px;
+    width: 500px;
+    border-radius: 3%;
+}
+
+.twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 30%;
+}
+
+@media (max-width: 976px) {
+    .coding {
+        display: flex; flex-direction: column; justify-content: center; align-items: center;
+    }
+
+    .video {
+        display: flex; flex-direction: column; justify-content: center; align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .coding {
+        display: flex; flex-direction: column; justify-content: center; align-items: center;
+    }
+
+    .video {
+        display: flex; flex-direction: column; justify-content: center; align-items: center;
+    }
+
+    p {
+        font-family: "PT Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+    }
+
+    .image {
+        height: 200px;
+        width: 400px;
+        border-radius: 3%;
+    }
+
+    .para {
+        height: 250px;
+        width: 350px;
+    }
 }
